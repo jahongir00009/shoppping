@@ -1,13 +1,11 @@
 import React from 'react'
-import Navber from '../components/ui/Navber'
-import Footer from '../components/ui/Footer'
+import AddElement from '../components/AddElement'
 
 function Home() {
   return (
-    <div>
-        <Navber/>
-        <Footer/>
-    </div>
+    <>
+      <AddElement />
+    </>
   )
 }
 
