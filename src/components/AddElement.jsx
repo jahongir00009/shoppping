@@ -1,3 +1,4 @@
+import React, { useState } from 'react';
 import { HiAdjustmentsHorizontal } from "react-icons/hi2";
 import { BsFillGridFill } from 'react-icons/bs';
 import { TbLayoutList } from 'react-icons/tb';
@@ -39,6 +40,17 @@ const products = [
 ];
 
 function AddElement() {
+    const [currentPage, setCurrentPage] = useState(1);
+    const [productsPerPage] = useState(4);
+
+    // Calculate the current products
+    const indexOfLastProduct = currentPage * productsPerPage;
+    const indexOfFirstProduct = indexOfLastProduct - productsPerPage;
+    const currentProducts = products.slice(indexOfFirstProduct, indexOfLastProduct);
+
+    // Change page
+    const paginate = (pageNumber) => setCurrentPage(pageNumber);
+
     return (
         <>
             <section className='px-[98px] py-7 flex items-center bg-[#F9F1E7]'>
@@ -66,7 +78,7 @@ function AddElement() {
                 </div>
             </section>
             <section className="px-[80px] py-7 grid grid-cols-4 gap-4">
-                {products.map(product => (
+                {currentProducts.map(product => (
                     <div key={product.id} className="relative group bg-gray-300 w-[285px] h-[446px] overflow-hidden">
                         <img src={product.image} alt={product.name} className="w-full h-[285px] object-cover" />
                         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center transition-opacity duration-300">
@@ -87,7 +99,7 @@ function AddElement() {
                         </div>
                     </div>
                 ))}
-                {products.map(product => (
+                {currentProducts.map(product => (
                     <div key={product.id} className="relative group bg-gray-300 w-[285px] h-[446px] overflow-hidden">
                         <img src={product.image} alt={product.name} className="w-full h-[285px] object-cover" />
                         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center transition-opacity duration-300">
@@ -108,7 +120,7 @@ function AddElement() {
                         </div>
                     </div>
                 ))}
-                {products.map(product => (
+                {currentProducts.map(product => (
                     <div key={product.id} className="relative group bg-gray-300 w-[285px] h-[446px] overflow-hidden">
                         <img src={product.image} alt={product.name} className="w-full h-[285px] object-cover" />
                         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center transition-opacity duration-300">
@@ -129,7 +141,7 @@ function AddElement() {
                         </div>
                     </div>
                 ))}
-                {products.map(product => (
+                {currentProducts.map(product => (
                     <div key={product.id} className="relative group bg-gray-300 w-[285px] h-[446px] overflow-hidden">
                         <img src={product.image} alt={product.name} className="w-full h-[285px] object-cover" />
                         <div className="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex flex-col items-center justify-center transition-opacity duration-300">
@@ -150,9 +162,33 @@ function AddElement() {
                         </div>
                     </div>
                 ))}
-
             </section>
-
+            <div className="flex justify-center mt-4">
+                <ul className="flex list-none">
+                    {Array.from({ length: Math.ceil(products.length / productsPerPage) }, (_, index) => (
+                        <li key={index} className="mx-1">
+                            {index < 4 && (
+                                <button
+                                    onClick={() => paginate(index + 1)}
+                                    className={`px-3 py-1 rounded ${currentPage === index + 1 ? 'bg-blue-500 text-white' : 'bg-gray-200 text-gray-700'}`}
+                                >
+                                    {index + 1}
+                                </button>
+                            )}
+                        </li>
+                    ))}
+                    {currentPage < Math.ceil(products.length / productsPerPage) && (
+                        <li className="mx-1">
+                            <button
+                                onClick={() => paginate(currentPage + 1)}
+                                className="px-3 py-1 rounded bg-gray-200 text-gray-700"
+                            >
+                                Next
+                            </button>
+                        </li>
+                    )}
+                </ul>
+            </div>
         </>
     );
 }
