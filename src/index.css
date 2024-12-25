@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 .box {
-    background: url('background.png') no-repeat ;
+    background: url('../public/background.png') no-repeat ;
     background-size: cover; /* Rasmni to'liq qoplash */
+    width: 100%;
   }
   

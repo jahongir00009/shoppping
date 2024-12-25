@@ -4,10 +4,10 @@ import { FiSearch } from 'react-icons/fi';
 
 function Navber() {
   return (
-    <nav className="flex items-center justify-between px-6 py-4 shadow-md">
+    <nav className="flex items-center justify-between px-6 py-4 shadow-md ">
       <div className="flex items-center space-x-2">
         <img src="/logo.png" alt="Logo" className="h-6" />
-        <h1 className="text-xl font-bold">Furniro</h1>
+        <h1 className=" text-4xl font-bold">Furniro</h1>
       </div>
 
   
