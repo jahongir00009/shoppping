@@ -5,6 +5,7 @@ import Footer from '../components/ui/Footer'
 import Header from '../components/Header'
 import Jasur from '../components/Jasur'
 import InpitCard from '../components/InpitCard'
+import Product from '../components/Produck'
 
 function Home() {
   return (
@@ -13,7 +14,9 @@ function Home() {
       <Header/>
       <Jasur/>
       <AddElement />
+      <Product/>
       <InpitCard/>
+      
       <Footer/>
     </>
   )
