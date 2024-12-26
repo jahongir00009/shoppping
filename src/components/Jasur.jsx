@@ -8,7 +8,7 @@ function Jasur() {
     <div className="flex gap-[40px] mt-[62px]">
       <img className="ml-[131px]" src="public/mask dab.png" alt="" />
       <img src="public/Image-living room (1).png" alt="" />
-      <img src="public/Mask Group.png " alt="" />
+      <img src="/public/Image-living room (1).png " alt="" />
     </div>
     <br />
     <div className="flex">

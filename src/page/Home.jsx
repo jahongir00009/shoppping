@@ -4,6 +4,7 @@ import Navber from '../components/ui/Navber'
 import Footer from '../components/ui/Footer'
 import Header from '../components/Header'
 import Jasur from '../components/Jasur'
+import InpitCard from '../components/InpitCard'
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Header/>
       <Jasur/>
       <AddElement />
+      <InpitCard/>
       <Footer/>
     </>
   )
