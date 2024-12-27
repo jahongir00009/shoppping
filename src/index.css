@@ -1,9 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
 .box {
+<<<<<<< Updated upstream
     background: url('../public/background.png') no-repeat ;
     background-size: cover; /* Rasmni to'liq qoplash */
     width: 100%;
+=======
+    background: url('background.png') no-repeat ;
+    background-size: cover; /* Rasmni to'liq qoplash */ 
+>>>>>>> Stashed changes
   }
   

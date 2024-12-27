@@ -1,23 +1,17 @@
-import React from 'react'
 import AddElement from '../components/AddElement'
 import Navber from '../components/ui/Navber'
 import Footer from '../components/ui/Footer'
 import Header from '../components/Header'
-import Jasur from '../components/Jasur'
-import InpitCard from '../components/InpitCard'
-import Product from '../components/Produck'
+import MiniHeader from '../components/common/miniHeader'
 
 function Home() {
   return (
     <>
-      <Navber/>
-      <Header/>
-      <Jasur/>
+      <Navber />
+      <MiniHeader title={"Product Comparison"} LinkLocation={location.toString()} />
+      <Header />
       <AddElement />
-      <Product/>
-      <InpitCard/>
-      
-      <Footer/>
+      <Footer />
     </>
   )
 }
