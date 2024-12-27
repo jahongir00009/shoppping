@@ -1,4 +1,4 @@
-import { ShareIcon, ArrowsRightLeftIcon, HeartIcon } from "@heroicons/react/24/outline";
+import { CiShare1 } from "react-icons/ci"
 
 function Jasur() {
   return (
@@ -8,7 +8,7 @@ function Jasur() {
     <div className="flex gap-[40px] mt-[62px]">
       <img className="ml-[131px]" src="public/mask dab.png" alt="" />
       <img src="public/Image-living room (1).png" alt="" />
-      <img src="public/Mask Group.png " alt="" />
+      <img src="/public/Image-living room (1).png " alt="" />
     </div>
     <br />
     <div className="flex">
@@ -54,15 +54,15 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
@@ -100,15 +100,15 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
@@ -146,15 +146,15 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
@@ -191,15 +191,15 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
@@ -246,15 +246,15 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
@@ -292,15 +292,15 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
@@ -338,15 +338,15 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
@@ -384,21 +384,23 @@ function Jasur() {
           </button>
           <div className="flex space-x-6 text-gray-300">
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ShareIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Ulashish</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <ArrowsRightLeftIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Taqqoslash</span>
             </div>
             <div className="flex flex-col items-center cursor-pointer hover:text-white">
-              <HeartIcon className="h-6 w-6" />
+              <CiShare1 className="h-6 w-6" />
               <span className="text-sm mt-1">Yoqtirish</span>
             </div>
           </div>
         </div>
       </div>
     </div>
+    <br />
+    <br />
     </>
   )
 }
